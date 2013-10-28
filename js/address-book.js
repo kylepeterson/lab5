@@ -21,7 +21,7 @@ function render(entries, template, container) {
         instance = template.clone();
         instance.find('.first').html(this.first);
         instance.find('.last').html(this.last);
-        instance.find('.lead title').html(this.title);
+        instance.find('.title').html(this.title);
         instance.find('.dept').html(this.dept);
         instance.find('.pic').attr({
             src: this.pic,
